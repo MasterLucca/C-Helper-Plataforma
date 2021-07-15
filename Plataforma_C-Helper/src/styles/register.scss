@@ -1,0 +1,142 @@
+#page-auth {
+  display: flex;
+  align-items: stretch;
+  height: 100vh;
+  
+
+aside {
+  flex: 4;
+
+  background: #fbedd1;
+  color: #264e71;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 120px 80px; 
+}
+
+img {
+  max-width: 760px;
+}
+
+strong {
+  font: 700 36px 'Poppins', sans-serif;
+  line-height: 42px;
+  margin-top: 16px;
+}
+
+
+
+
+main {
+  background: #274f73;
+  flex: 8; 
+
+  padding: 0 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+  .logo {
+    max-width: 162px;
+  }
+  
+  .sign-google {
+    margin-top: 4px;
+    height: 50px;
+    border-radius: 9px;
+    font-weight: 500;
+    background: #f4f4f4;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    border: 0;
+
+    transition: filter 0.2s;
+    color: #274f73;
+    img {
+      margin-right: 8px;
+      max-width: 30px;
+    }
+    &:hover {
+      filter: brightness(0.9);
+    }
+  }
+
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 320px;
+    align-items: stretch;
+    text-align: center;
+    
+    .separator {
+      color: #a8a8b3;
+
+      align-items: center;
+      margin: 32px 0;
+      display: flex;
+
+      &::before {
+        content: '';
+        flex: 1;
+        height: 1px;
+        background: #a8a8b3;
+        margin-right: 16px;
+      }
+
+      &::after {
+        content: '';
+        flex: 1;
+        height: 1px;
+        background: #a8a8b3;
+        margin-left: 16px;
+      }
+    }
+
+    >img {
+      align-self: center;
+    }
+
+    form {
+      input {
+        font-size: 14px;
+        height: 40px;
+        border-radius: 6px;
+        padding: 0 16px;
+        background: #fff;
+        border: 1px solid #264e71;
+        margin-top: 2px;
+      }
+
+     
+      button, input {
+        width: 100%;
+      }
+    
+
+      p {
+        font-size: 14px;
+        color: #a4a4a4;
+      }
+      a {
+        text-decoration: none;
+        color: #f4f4f4;
+      }
+      .pass-input {
+        position: flex;
+        margin-bottom: 10px;
+      }
+    /*FORM*/
+    }
+  }
+}
+}

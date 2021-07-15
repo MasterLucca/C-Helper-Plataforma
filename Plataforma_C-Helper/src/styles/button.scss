@@ -1,0 +1,57 @@
+.button {
+      font-size: 15px;
+      margin-top: 16px;
+      height: 50px;
+      border-radius: 9px;
+      font-weight: 500;
+      background: #16303f;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      cursor: pointer;
+      border: 0;
+
+      transition: filter 0.2s;
+      color: #F2F2F2;
+      img {
+        margin-right: 8px;
+        max-width: 30px;
+      }
+
+      &:not(:disabled):hover {
+        filter: brightness(0.9);
+      } 
+
+      &:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+      }
+  }
+
+.btn-create {
+    font-size: 14px;
+    margin-top: 5px;
+    height: 50px;
+    border-radius: 9px;
+    font-weight: 500;
+    background: #ff7c5d;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    border: 0;
+
+    transition: filter 0.2s;
+    color: #F2F2F2;
+    img {
+      margin-right: 8px;
+      max-width: 30px;
+    }
+    &:hover {
+      filter: brightness(0.9);
+    } 
+  }
