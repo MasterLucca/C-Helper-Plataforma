@@ -26,7 +26,7 @@ export function LoginPage() {
 
   function NavigateToRegisterPage () {
     history.push('/register');
-  }
+  } 
 
 
 
@@ -59,7 +59,7 @@ export function LoginPage() {
               Entrar
             </Button>
             <Button onClick={NavigateToRegisterPage} className="btn-create">
-              Criar uma conta
+              Crie uma conta
             </Button>
           </form>
         </div>
